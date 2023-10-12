@@ -7,6 +7,9 @@
 | wizard-db     | Linux | Всё из публичного образа mysq:5.7                                     | База данных | wizard-db-service     |
 | wizard-server | Linux | Всё из публичного образа php:7.4-apache, default-mysql-client, mysqli | Сервер      | wizard-server-service |
 
+> [!IMPORTANT]
+> Перед установкой предварительно инсталируйте и настройте на испавную работу [docker](https://www.docker.com), [minikube](https://minikube.sigs.k8s.io/docs/start) и [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
+
 ## Установка
 
 Всё, что надо сделать - запустить скрипт (обязательно из папки репозитория).
@@ -14,6 +17,7 @@
 cd [path-to-minikube-repo]
 ./install.sh
 ```
+
 
 ## Остановка и удаление
 
