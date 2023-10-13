@@ -8,7 +8,7 @@
 | wizard-server | Linux | Всё из публичного образа php:7.4-apache, default-mysql-client, mysqli | Сервер      | wizard-server-service |
 
 > [!IMPORTANT]
-> Перед установкой предварительно инсталируйте и настройте на исправную работу [docker](https://www.docker.com), [minikube](https://minikube.sigs.k8s.io/docs/start) и [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl).
+> Перед установкой предварительно инсталируйте и настройте на исправную работу [docker](https://www.docker.com), [minikube](https://minikube.sigs.k8s.io/docs/start) и [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)..
 
 ## Установка
 
